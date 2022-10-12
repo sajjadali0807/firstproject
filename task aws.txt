@@ -1,1 +1,0 @@
-aws ecs execute-command --cluster MG-PRD-Fargate --task 72ebbd9d7af343c188c4cc55d8fccb0f --container MotherGoose-PRD --interactive --command "/bin/sh"
