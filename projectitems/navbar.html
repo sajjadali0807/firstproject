@@ -1,0 +1,231 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+    <link href="">
+    
+    <style>
+      *{
+        margin: 0%;
+        padding: 0%;
+      }
+      body{
+        position: relative;
+        height: 100vh;
+      }
+      .navbar {
+        text-align: left;
+        background-color: #f2f2f2;
+        /* margin-left: 20px;
+        margin-right: 20px; */
+        padding: 20px;
+        font-size: 15px;
+        /* border-radius: 10px; */
+        position: sticky;
+        top: 0%;
+        width: 100%;
+      }
+
+      .input-lable {
+        padding: 0;
+      }
+
+      #reg-form {
+        justify-items: center;
+      }
+      .container {
+        text-align: center;
+        display: flex;
+        justify-content: center;
+      }
+
+      .item {
+        margin-left: 10px;
+        margin-right: 10px;
+        border-radius: 5px;
+        padding: 10px;
+      }
+
+      .one {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: space-between;
+        margin: 5%;
+      }
+      .one input {
+        height: 10px;
+      }
+      .two {
+        display: flex;
+        width: 100%;
+        padding: 0%;
+        margin: 0%;
+      }
+
+      .social-icons img {
+        width: 50px;
+        height: 50px;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        display: inline;
+        align-items: right;
+        margin: 0  5px;
+      }
+
+      .button {
+         padding: 8px 16px ; border-radius: 5px; 
+         outline: none;
+         border: none;
+         /* margin: 5px 5px; */
+         background-color: olive;
+         width: 30%;
+         display: flex;
+         justify-content: center;
+         cursor: pointer;
+      
+      }
+      .button1{
+        width: 100%;
+        display: flex;
+        justify-content: center;
+      }
+
+      .footer-item {
+        position: absolute;
+        background-color: #f2f2f2;
+        height: 90px;
+        width: 100%;
+        display: flex;
+        justify-content: right;
+        border-radius: 5px;
+        margin: 0%;
+        padding: 0%;
+        bottom: 0%;
+      }
+
+        .dropdown {
+          display: flex;
+          justify-content: right;
+
+
+      }
+
+      .radiobuttons {
+        padding: 0%;
+        margin: 0%;
+      }
+      .bg{
+        background-image: url(./kate-sade-2zZp12ChxhU-unsplash.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+      }
+    </style>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Navbar</title>
+  </head>
+  <body class="bg">
+
+  <div class="two">
+    <nav class="navbar">s
+      <div>
+        <span class="item">Home</span>
+        <span class="item">services</span>
+        <span class="item">Contact Us</span>
+        <span class="item">Our Projects</span>
+
+        
+      </div>
+      <div class="dropdown">
+        <select name="dropbox">
+          <option value="India">India</option>
+          <option value="na">Australia</option>
+          <option value="na">United States</option>
+        </select>
+      </div>
+    </nav>
+  </div>
+
+    <h1 style="text-align: center">Signup</h1>
+    <div class="container">
+      <form
+        id="reg-form"
+        style="
+          background-color: white;
+          width: 30%;
+          /* height: 40%; */
+          border-radius: 10px;
+          padding: 50px;
+          border: 1px solid black;"
+      >
+        <div class="one">
+          <p class="input-lable">Full name</p>
+          <input class="input-text" type="text" for="gh" name="full-name" />
+        </div>
+
+        <div class="one">
+          <p class="input-lable">Email</p>
+          <input class="input-text" type="email" name="full-name" />
+        </div>
+
+        <div class="one">
+          <p class="input-lable">Password</p>
+          <input class="input-text" type="password" name="full-name" />
+        </div>
+
+        <div class="one">
+          <p class="input-lable">Confirm Password</p>
+          <input class="input-text" type="password" name="Confirm-password" />
+        </div>
+
+        <div class="one">
+          <p class="input-lable">Gender</p>
+          <div class="radiobuttons">
+            <input type="radio" for="male"name="male" value="male" />male
+            <input type="radio" name="male" value="female" />female
+            <input type="radio" name="male" value="others" />others
+
+          </div>
+        </div>
+
+        <div class="button1">
+          <button class="button">Submit</button>
+        </div>
+        </div>
+      </form>
+    </div>
+
+    <footer class="footer-item">
+      <!-- <span>Google</span>
+      <span>Github</span>
+      <span>Facebook</span> -->
+
+      <div class="social-icons">
+        <img
+          src="http://pluspng.com/img-png/google-logo-png-open-2000.png"
+          alt="google logo"
+        />
+
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/facebook_circle-512.png"
+          alt="google logo"
+        />
+
+        <!-- <img
+          src="https://image.flaticon.com/icons/svg/25/25231.svg"
+          alt="google logo"
+        /> -->
+
+        <img
+          src="https://cdn4.iconfinder.com/data/icons/social-media-icons-the-circle-set/48/linkedin_circle-512.png"
+          alt="google logo"
+        />
+      </div>
+</footer>
+  </body>
+
+   
+</html>

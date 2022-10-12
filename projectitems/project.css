@@ -1,0 +1,297 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+body {
+    position: relative;
+}
+.image-position{
+    position: relative;
+    background-color: black;
+}
+.navbar-right span {
+    display: inline;
+    justify-content: right;
+    padding: 10px 10px;
+    font-weight: 600;
+    color: white;
+    padding-top: 15px;
+    
+    
+}
+.navbar-right span:hover{
+    color: rgb(245, 28, 176);
+}
+.navbar-right  {
+    position: absolute;
+    right: 0;
+    top: 20px;
+    
+
+}
+.image-position img{
+
+    width: 100%;
+    height: 100%;
+    opacity: 0.5;
+    
+    
+}
+.main-container{
+    position: absolute;
+    top: 0;
+    color: white;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+    width: 100%;
+    margin-top: 20%;
+    font-weight: 100;
+    font-size: 20px;
+    flex-direction: column;
+    
+   
+}
+
+#jing:hover{
+    color: #be3b5f;
+}
+
+.logo {
+    color: white;
+    width: 50%;
+    padding-left: 50px;
+    padding-top: 10px;
+    display: flex;
+    font-weight: 600;
+    
+}
+.logo p {
+    margin: auto 0;
+    
+}
+.navbar {
+    width: 100%;
+    position: absolute;
+    z-index: 1;
+    padding-bottom: 20px;
+}
+
+#skype {
+    width: 50px;
+    height: auto;
+}
+
+#discover-button {
+    padding: 5px 13px;
+    background: transparent;
+    color: #fff;
+    border: #fff solid 1px;
+    border-radius: 50px;
+}
+
+#discover-button:hover {
+    color:black;
+    background-color: white;
+}
+.main-2 {
+    background-color: white;
+    height: 100%;
+    width: 100%;
+    display: flex;
+}
+
+.main-left {
+width: 100%;
+padding: 5%;
+}
+
+.main-left img {
+    width: 100%;
+    padding: 0 5% 0 0;
+    border-radius: 100px;
+}
+.main-right {
+
+
+    
+}
+
+.item-up {
+    padding: 10% 10% 10% 0;
+    padding-top: 25%;
+
+}
+.folower-items{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.item-down-1 img {
+    height: 20px;
+    width: 20px;
+    padding-bottom: 5px;
+}
+.item-down-2 img {
+    height: 20px;
+    width: 20px;
+    padding-bottom: 5px;
+}
+
+.main-3 {
+    background-color: white;
+    height: 100vh;
+    width: 100%;
+
+} 
+.content-top {
+    padding-left: 35%;
+}
+
+.contents {
+    display: flex;
+    padding-top: 15%;
+    justify-content: space-between;
+    padding: 100px 100px;
+}
+
+#view-button {
+    padding: 5px 10px;
+    margin-left: 32px;
+    border-radius: 30px;
+    background: transparent;
+    color:black;
+    margin-top: 10px;
+    border: solid 1px #dddddd;
+}
+
+#view-button :hover {
+    color:white;
+    /* background-color: black; */
+}
+
+#icon {
+    height: 40px;
+    width: 40px;
+    padding-bottom: 10%;
+}
+
+.content-1 {
+    padding: 0 40px;
+}
+.content-2 {
+    padding: 0 40px;
+}
+.content-3 {
+    padding: 0 40px;
+}
+.content-4 {
+    padding: 0 40px;
+}
+
+.down-images img {
+    width: 100%;
+    height: 100%;
+}
+
+.down-items-4 {
+    display: flex;
+    justify-content: space-around;
+    /* padding: 5%; */
+    
+}
+.down-images  {
+    width: 85%;
+    
+}
+
+.basic-revelutions {
+    width: 60%;
+    padding: 20px 50px 0 50px;
+    background-color: black;
+    color: rgba(197, 197, 197, 0.815);
+    
+}
+
+ #lighter-text {
+    font-size: small;
+    font-weight: lighter;
+    padding-top: 10px;
+}
+
+.main-4 {
+    width: 50%;
+    margin: auto;
+}
+.five-1{
+    width: 50%;
+}
+.five-1 img {
+    width: 100%;
+}
+.five-1-main {
+    display: flex;
+    
+
+}
+.five-2{
+    width: 36%;
+}
+.five-2 img {
+    width: 100%;
+    padding: 0 5px;
+}
+.five-3-main {
+    display: flex;
+    
+
+}
+.five-3 {
+    width: 36%;
+}
+.five-3 img {
+    width: 96%;
+    
+}
+.five-4{
+    width: 36%;
+}
+.five-4 img {
+    width: 140%;
+    padding: 10px 5px;
+}
+.five-5-main {
+    display: flex;
+    
+
+}
+.five-5{
+    width: 36%;
+}
+.five-5 img {
+    width: 100%;
+    
+}
+.five-6{
+    width: 36%;
+}
+.five-6 img {
+    width: 140%;
+    padding: 0 5px;
+}
+
+.main4-text {
+    padding: 70px 0px;
+}
+.project-details {
+    background-color: #ae30f7;
+    color: white;
+    width: 100%;
+    display: flex;
+    padding: 50px 0;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    
+}
